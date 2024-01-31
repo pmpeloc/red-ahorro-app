@@ -1,7 +1,9 @@
+import { LoginPage } from './modules/auth/pages/LoginPage';
+
 export function App() {
   return (
     <div>
-      <p>Hello</p>
+      <LoginPage />
     </div>
   );
 }
